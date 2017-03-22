@@ -4,7 +4,7 @@
 angular.module('ocrApp').controller('MainCtrl', function ($scope, $http) {
     $http({
         method: 'GET',
-        url: 'http://localhost:8282/races'
+        url: '/races'
     }).then(function (response) {
         $scope.races = response.data;
     }, function (response) {
