@@ -1,10 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
-</html>
+<h3>Races</h3>
+<ul>
+    <li ng-repeat="race in races"><a ng-href="/#/participants/{{race.id}}">{{race.name}}</a></li>
+</ul>
+

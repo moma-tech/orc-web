@@ -1,4 +1,5 @@
 /**
+ * Main Angular Route Definitions
  * Created by ivan on 17-3-20.
  */
 angular
@@ -15,6 +16,10 @@ angular
             .when('/', {
                 templateUrl: 'views/main.html',
                 controller: 'MainCtrl'
+            })
+            .when('/participants/:raceId', {
+                templateUrl: 'views/participants.html',
+                controller: 'ParticipantsCtrl'
             })
             .otherwise({
                 redirectTo: '/'
