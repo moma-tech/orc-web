@@ -12,7 +12,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 //@EnableEurekaClient
 public class OrcWebApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(OrcWebApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(OrcWebApplication.class, args);
+    }
 }
